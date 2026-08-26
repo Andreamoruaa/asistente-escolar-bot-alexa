@@ -93,7 +93,7 @@ async def procesar_mensaje(update: Update, context: ContextTypes.DEFAULT_TYPE):
 #FUNCION MAIN 
 if __name__ == '__main__':
     init_db()
-    TOKEN = "8846315568:AAF0U7i9aEUr_1sEUv02lMvHMgrukB5vMPE"
+    TOKEN = "Token_Teodoro"
     custom_request = HTTPXRequest(
         connect_timeout=30.0,
         read_timeout=30.0,
